@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #58CCED, #FF8C42, #66BB6A); /* Fondo con degradado azul, naranja y verde */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Configuración de cuadrícula en forma de rectángulo */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas para formar un rectángulo */
+    grid-template-rows: repeat(3, 1fr);    /* 3 filas */
+    gap: 10px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Estilo de los cuadrados */
+.square {
+    background: linear-gradient(135deg, #66BB6A, #FF8C42); /* Degradado verde a naranja */
+    color: white;
+    text-align: center;
+    padding: 10px; /* Reducimos el padding para un mejor uso del espacio */
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1em; /* Tamaño de letra ajustado */
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    aspect-ratio: 1 / 1; /* Hace que el botón sea cuadrado */
+}
+
+/* Efecto hover en los cuadrados */
+.square:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #66BB6A, #58CCED); /* Cambia a verde a azul en el hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo del cuadro de información */
+.info-box {
+    display: none;
+    background: linear-gradient(135deg, #ffffff, #E0E0E0);
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    position: relative;
+}
+
+/* Estilo del botón de cerrar */
+.info-box button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #FF8C42, #58CCED); /* Botón de color degradado de naranja a azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: auto;
+    display: inline-block;
+}
+
+.info-box button:hover {
+    background: linear-gradient(135deg, #58CCED, #66BB6A); /* Cambia a degradado azul a verde en el hover */
+    transform: scale(1.05);
+}
+
+/* Animaciones para el cuadro de información */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+}
