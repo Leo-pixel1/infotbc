@@ -8,7 +8,7 @@ const infoContent = {
     
     4: "Las principales medidas de prevención de la tuberculosis incluyen la identificación temprana de personas con síntomas respiratorios, la ventilación y el uso de iluminación natural en los espacios cerrados, y la promoción de prácticas saludables como cubrirse la boca al toser o estornudar. También es fundamental una buena alimentación para fortalecer el sistema inmunológico y reducir la probabilidad de desarrollar la enfermedad.",
     
-    5: "El diagnóstico de tuberculosis se realiza mediante una prueba de esputo, que consiste en analizar una muestra de flema para detectar la presencia del bacilo de Koch. En algunos casos, pueden requerirse exámenes adicionales como radiografías de tórax o pruebas de laboratorio avanzadas para confirmar el diagnóstico. Es esencial que las personas con síntomas sospechosos acudan rápidamente a un establecimiento de salud para una evaluación adecuada.",
+    5: "El diagnóstico de tuberculosis se realiza mediante una prueba de esputo, que consiste en analizar una muestra de flema para detectar la presencia del bacilo de Koch. En algunos casos, pueden requerirse exámenes adicionales como radiografías de tórax, prueba PPD o prueba cutanea de la tuberculina, es un examen que consiste en inyectar una solucion de Derivado Proteico Purificado (PPD) bajo la piel del antebrazo para detectar la TBC. Es esencial que las personas con síntomas sospechosos acudan rápidamente a un establecimiento de salud para una evaluación adecuada.",
     
     6: "La vacunación con la BCG (bacilo de Calmette-Guérin) es una medida preventiva utilizada principalmente en niños pequeños para proteger contra las formas graves de tuberculosis, como la tuberculosis meníngea. La vacuna BCG es gratuita y está disponible en los centros de salud del país. Su aplicación es fundamental para reducir la incidencia de formas severas de la enfermedad en la población infantil.",
     
@@ -22,7 +22,7 @@ const infoContent = {
     
     11: "El estigma hacia las personas con tuberculosis surge principalmente del miedo al contagio y la falta de información. Este estigma puede llevar a la discriminación y aislamiento social de los afectados. Las instituciones deben promover la educación y sensibilización sobre la tuberculosis, enfatizando que es una enfermedad tratable y curable, y que todos pueden apoyar en su prevención.",
     
-    12: "Para más información y orientación sobre la tuberculosis, es importante contactar con el Ministerio de Salud o acudir a los establecimientos de salud más cercanos. La tuberculosis tiene diagnóstico y tratamiento gratuitos en el sistema de salud pública, y el acceso a estos servicios es clave para el control de la enfermedad en la comunidad."
+    12: "Para más información y orientación sobre la tuberculosis, es importante contactar con el Ministerio de Salud o acudir a los establecimientos de salud más cercanos. La tuberculosis tiene diagnóstico y tratamiento gratuitos en el sistema de salud pública, y el acceso a estos servicios es clave para el control de la enfermedad en la comunidad. :Fuente MINSA"
 };
 
 // Función para mostrar la información al hacer clic en un tema
