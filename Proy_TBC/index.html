@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temas sobre Tuberculosis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="square" onclick="showInfo(1)">¿Qué es la tuberculosis?</div>
+        <div class="square" onclick="showInfo(2)">¿Cómo se contagia?</div>
+        <div class="square" onclick="showInfo(3)">Síntomas de la tuberculosis</div>
+        <div class="square" onclick="showInfo(4)">Medidas de prevención</div>
+        <div class="square" onclick="showInfo(5)">Diagnóstico</div>
+        <div class="square" onclick="showInfo(6)">Vacunación</div>
+        <div class="square" onclick="showInfo(7)">Rol de la institución educativa</div>
+        <div class="square" onclick="showInfo(8)">Estudio de contactos</div>
+        <div class="square" onclick="showInfo(9)">Mitos sobre tuberculosis</div>
+        <div class="square" onclick="showInfo(10)">Medidas de apoyo para estudiantes</div>
+        <div class="square" onclick="showInfo(11)">Estigma y discriminación</div>
+        <div class="square" onclick="showInfo(12)">Información de contacto</div>
+    </div>
+    <div id="infoBox" class="info-box">
+        <span id="infoContent">Haz clic en un tema para ver la información.</span>
+        <button onclick="closeInfo()">Cerrar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
