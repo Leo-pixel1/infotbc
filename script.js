@@ -22,7 +22,7 @@ const infoContent = {
     
     11: "El estigma hacia las personas con tuberculosis surge principalmente del miedo al contagio y la falta de información. Este estigma puede llevar a la discriminación y aislamiento social de los afectados. Las instituciones deben promover la educación y sensibilización sobre la tuberculosis, enfatizando que es una enfermedad tratable y curable, y que todos pueden apoyar en su prevención.",
     
-    12: "Para más información y orientación sobre la tuberculosis, es importante contactar con el Ministerio de Salud o acudir a los establecimientos de salud más cercanos. La tuberculosis tiene diagnóstico y tratamiento gratuitos en el sistema de salud pública, y el acceso a estos servicios es clave para el control de la enfermedad en la comunidad. :Fuente MINSA"
+    12: "Para más información y orientación sobre la tuberculosis, es importante contactar con el Ministerio de Salud o acudir a los establecimientos de salud más cercanos. La tuberculosis tiene diagnóstico y tratamiento gratuitos en el sistema de salud pública, y el acceso a estos servicios es clave para el control de la enfermedad en la comunidad. :Fuente MINSA. INFORMATE MAS EN EL SIGUIENTE VIDEO https://www.youtube.com/watch?v=V3RRuVJ7Lw4"
 };
 
 // Función para mostrar la información al hacer clic en un tema
