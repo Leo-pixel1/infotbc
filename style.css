@@ -50,6 +50,26 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+/* Estilo de la imagen */
+.img-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.img-div:hover {
+    scale: 1.025;
+}
+
+.img-tbc {
+    width: 70%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
 /* Estilo del cuadro de información */
 .info-box {
     display: none;
